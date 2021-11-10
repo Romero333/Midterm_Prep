@@ -1,48 +1,43 @@
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <title>IS106 Midterm Prep</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contact.css">
 </head>
+
 <body class="main-container-grid">
     <div class="r1 box-shadow">
-        <h2>Romero</h2>
+        <h2>Estevan Romero - IS106 Midterm Prep</h2>
     </div>
-    <div class="r2 three-column">
-        <div class="c1">
+    
+    <div class="two-column r2">
+        <div class="c1 box-shadow">
             <h2 class="txt-center">Navigation</h2>
             <ul class="left-nav">
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
-                <li><a href="#">link</a></li>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./about.html">About</a></li>
+                <li><a href="./contact.html">Contact Us</a></li>
+                <li><a href="./login.html">Login</a></li>
             </ul>
         </div>
-        <div class="c2">
-            <h2 class="txt-center h2-content">Recent Product</h2>
-            <img class="box-shadow" src="./images/bulb.jpg" alt="bulb">
-            <img class="box-shadow" src="./images/camera.jpg" alt="camera">
-            <img class="box-shadow" src="./images/charger.jpg" alt="charger">
-            <img class="box-shadow" src="./images/hdmi.jpg" alt="hdmi">
-            <img class="box-shadow" src="./images/lens.jpg" alt="lens">
-            <img class="box-shadow" src="./images/mixer.jpg" alt="mixer">
-            <img class="box-shadow" src="./images/ps5.jpg" alt="ps5">
-            <img class="box-shadow" src="./images/radio.jpg" alt="radio">
-            <img class="box-shadow" src="./images/refrigerator.jpg" alt="refrigerator">
-            <img class="box-shadow" src="./images/tv.jpg" alt="tv">
-            <img class="box-shadow" src="./images/xbox.jpg" alt="xbox">
-            <img class="box-shadow" src="./images/lights.jpg" alt="lights">
-        </div>
-        <div class="c3">
-            <h2 class="txt-center">Recent Product</h2>
-        </div>
+    
+    <div class="c2">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <input placeholder="First Name" type="text" id="first-name" class="contact-input">
+            <input placeholder="Last Name" type="text" id="last-name" class="contact-input">
+            <input placeholder="Email" type="text" id="email" class="contact-input">
+            <button onclick="contact.goToHome()" class="submit-button" type="submit">Submit</button>
+        </form>
     </div>
-    <div class="r3">
+    
+    <div class="footer r3">
         Copyright - Created by Estevan Romero
         <span>&copy;</span> <!-- copyright symbol -->
     </div>
+
+    <script type="text/javascript" src="./js/contact.js"></script>
 </body>
+
 </html>

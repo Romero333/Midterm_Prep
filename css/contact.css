@@ -1,3 +1,4 @@
+
 * {
     margin: 0px;
     padding: 0px;
@@ -31,13 +32,12 @@ body, html {
     height: 100%;
     background-color: brown;
 }
-.three-column {
+.two-column {
     display: grid;
-    grid-template-columns: 2fr 8fr 3fr;
-    background-color: burlywood;
+    grid-template-columns: 2fr 8fr;
+    background-color: cadetblue;
     grid-column-gap: 1em;
 }
-
 .c1 {
     min-width: 200px;
 }
@@ -83,6 +83,16 @@ body, html {
 }
 .box-shadow {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.527);
+}
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: bisque;
+        color: black;
+        text-align: center;
+
 }
 .contact-form {
     width: 500px;

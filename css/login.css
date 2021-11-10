@@ -1,3 +1,4 @@
+
 * {
     margin: 0px;
     padding: 0px;
@@ -31,9 +32,8 @@ body, html {
     height: 100%;
     background-color: brown;
 }
-.three-column {
+.one-column {
     display: grid;
-    grid-template-columns: 2fr 8fr 3fr;
     background-color: burlywood;
     grid-column-gap: 1em;
 }
@@ -84,6 +84,16 @@ body, html {
 .box-shadow {
     box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.527);
 }
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: bisque;
+        color: black;
+        text-align: center;
+
+}
 .contact-form {
     width: 500px;
     height: 500px;
@@ -99,4 +109,11 @@ body, html {
     background-color: cadetblue;
     float: right;
     margin-top: 12px;
+}
+.error-message {
+    color: red;
+    padding: 7px;
+    display: block;
+    margin-top: 5px;
+    display: none;
 }
